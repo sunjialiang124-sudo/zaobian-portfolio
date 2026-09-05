@@ -1,0 +1,159 @@
+{
+  "publishedAt": "2026-09-05",
+  "scope": "本地人工体验反馈的脱敏只读快照",
+  "records": [
+    {
+      "label": "反馈案例 1",
+      "menu": "香菇蒸鸡 · 米饭",
+      "status": "已确认缺陷",
+      "rating": 4,
+      "problem": "回复太慢、没有回应或意外中断",
+      "date": "2026-09-04",
+      "stages": [
+        {
+          "date": "2026-09-04",
+          "status": "待核实"
+        },
+        {
+          "date": "2026-09-04",
+          "status": "已确认缺陷"
+        }
+      ],
+      "module": "菜谱与回答",
+      "version": "local-2026-09-04",
+      "regressionCases": [
+        "我倒完了，下一步呢",
+        "然后呢",
+        "焖好了"
+      ],
+      "evidence": null
+    },
+    {
+      "label": "反馈案例 2",
+      "menu": "家常豆腐 · 杂粮饭",
+      "status": "待核实",
+      "rating": 1,
+      "problem": "没听懂我说的话",
+      "date": "2026-09-03",
+      "stages": [
+        {
+          "date": "2026-09-03",
+          "status": "待核实"
+        }
+      ],
+      "module": "待归因",
+      "version": "未指定",
+      "regressionCases": [],
+      "evidence": null
+    },
+    {
+      "label": "反馈案例 3",
+      "menu": "家常豆腐 · 杂粮饭",
+      "status": "有效线索",
+      "rating": 2,
+      "problem": "说明不清楚或缺少关键信息",
+      "date": "2026-09-03",
+      "stages": [
+        {
+          "date": "2026-09-03",
+          "status": "待核实"
+        },
+        {
+          "date": "2026-09-03",
+          "status": "有效线索"
+        }
+      ],
+      "module": "待归因",
+      "version": "未指定",
+      "regressionCases": [],
+      "evidence": null
+    },
+    {
+      "label": "反馈案例 4",
+      "menu": "固定菜单体验",
+      "status": "待核实",
+      "rating": 5,
+      "problem": "无",
+      "date": "2026-09-03",
+      "stages": [
+        {
+          "date": "2026-09-03",
+          "status": "待核实"
+        }
+      ],
+      "module": "待归因",
+      "version": "未指定",
+      "regressionCases": [],
+      "evidence": null
+    },
+    {
+      "label": "反馈案例 5",
+      "menu": "家常豆腐 · 杂粮饭",
+      "status": "已关闭",
+      "rating": 3,
+      "problem": "说明不清楚",
+      "date": "2026-09-03",
+      "stages": [
+        {
+          "date": "2026-09-03",
+          "status": "待核实"
+        },
+        {
+          "date": "2026-09-03",
+          "status": "有效线索"
+        },
+        {
+          "date": "2026-09-03",
+          "status": "已确认缺陷"
+        },
+        {
+          "date": "2026-09-03",
+          "status": "待修复"
+        },
+        {
+          "date": "2026-09-03",
+          "status": "待复测"
+        },
+        {
+          "date": "2026-09-03",
+          "status": "待修复"
+        },
+        {
+          "date": "2026-09-04",
+          "status": "待复测"
+        },
+        {
+          "date": "2026-09-04",
+          "status": "已关闭"
+        },
+        {
+          "date": "2026-09-04",
+          "status": "已关闭"
+        },
+        {
+          "date": "2026-09-04",
+          "status": "待复测"
+        },
+        {
+          "date": "2026-09-04",
+          "status": "已关闭"
+        }
+      ],
+      "module": "烹饪状态机",
+      "version": "local-2026-09-04",
+      "regressionCases": [
+        "完成表达只推进一个动作",
+        "重复确认保持幂等",
+        "纠错回到指定动作"
+      ],
+      "evidence": {
+        "version": "local-2026-09-04",
+        "build": true,
+        "node": "143/143",
+        "python": "13/13",
+        "human": "pass",
+        "traces": 5
+      }
+    }
+  ]
+}
